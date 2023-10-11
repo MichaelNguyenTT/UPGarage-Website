@@ -5,8 +5,30 @@
     list-style-type: none;
 }
 
+body {
+    background-color: rgb(228, 226, 226) !important;
+}
+
+#wheel-card-row1 {
+    margin-top: 40px;
+    font-family: monospace;
+    width: 75%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-style: italic;
+}
+.card img {
+    height: 300px;
+    width: auto;
+    
+}
+/* carousel CSS */
 .top-content {
     width:100%;
     padding: 0;
 }
-
