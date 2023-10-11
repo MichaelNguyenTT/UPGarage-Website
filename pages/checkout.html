@@ -10,64 +10,56 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid bg-dark">
-            <nav class="navbar">
-                  <!--Grid system with 1 row 2 columns-->
-                  <!-- Added Row gutter-->
-                      <div class="row gx-3">
-                        <div class="col">
-                          <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                            <div class="offcanvas-header bg-dark">
-                              <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
-                                <img src="../assets/images/upgaragelogo.png" height="40px">
-                              </h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                              <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
-                                <li class="nav-item text-white">
-                                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Register</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Products
-                                  </a>
-                                  <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                      <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-      
-                        <div class="col">
-                          <a class="navbar-brand" href="index.html">
-                            <!-- ADDED LOGO TO NAVBAR-->
-                            <img src="../assets/images/upgaragelogo.png" alt="jdmlogo" height="50px" width="200px"/>
-                          </a>
-                        </div>
-                      </div>
-      
-                      <div class="flex-container pt-4">
-                            <a href="#">
-                            <img src="../assets/images/account.svg"></a>
-                            <a href="#">
-                            <img src="../assets/images/cart.png" height="24px" width="24px"></a>
-                      </div>
-              </nav>
+        <!-- **** NEED ADD RESPONSIVE TO NAV ****-->
+    <!-- Container for Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top rounded">
+        <div class="container-fluid">
+          <div class="container w-25">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/images/upgaragelogo.png" alt="upgarage-logo" class="w-75">
+            </a>
           </div>
+              <!--CONTAINER FOR LINKS-->
+              <div class="container d-flex justify-content-center">
+                <div class="navbar" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item pt-2">
+                      <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                      <a class="nav-link text-white" href="#aboutSection">About</a>
+                    </li>
+                    <li class="nav-item pt-2">
+                      <a class="nav-link text-white" href="../pages/products.html">Products</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!--CONTAINER FOR ICON LINKS-->
+              <div class="container w-25 d-flex justify-content-end">
+                <div class="navbar" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item pt-2">
+                      <a class="nav-link active" aria-current="page" href="../pages/userlogin.html">
+                        <img src="../assets/images/account.svg">
+                      </a>
+                    </li>
+                    <li class="nav-item pt-2">
+                      <a class="nav-link" href="../pages/checkout.html">
+                        <img src="../assets/images/cart.png" height="24px" width="24px">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../pages/registration.html">
+                          <button class="btn btn-secondary" type="signup">Sign Up</button>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+      </nav>
     </header>
 
     <main>
