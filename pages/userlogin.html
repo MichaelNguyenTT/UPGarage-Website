@@ -49,23 +49,24 @@
       </nav>
   
     </header>
+
     <main>
-    
-    <section class="login-img">
-      <div class="container py-5 vh-100">
+      <!-- USERLOGIN FORM CONTAINER -->
+      <div class="container py-5">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col col-lg-10">
-            <div class="card" style="border-radius: 1rem;">
+            <div class="card mt-5" style="border-radius: 1rem;">
               <div class="row g-0">
-                <div class="col-md-6 col-lg-5 p-2">
-                    <img class="w-100 h-100 rounded shadow" src="../assets/images/chaser.jpeg" 
-                      alt="login form" />
+                <!-- GRID COLUMN FOR LEFT IMG -->
+                <div class="col-md-6 col-lg-5 p-3">
+                    <img class="w-100 h-100 rounded shadow" src="../assets/images/chaser.jpeg"
+                      alt="chaser" />
                 </div>
+                <!-- GRID COLUMN FOR USERLOGIN FORM -->
                 <div class="col-md-6 col-lg-7 d-flex justify-content-center">
                   <div class="card-body p-4 p-lg-5 text-black">
-    
+                    <!-- FORM VALIDATION ADDED -->
                     <form class="was-validated">
-    
                       <div class="d-flex align-items-center mb-3 pb-1">
                         <span>
                           <img src="../assets/images/upgaragelogo.png">
@@ -74,25 +75,30 @@
     
                       <h5 class="fw-normal mb-3 pb-3">Sign into your account</h5>
     
-                      <div class="form-outline mb-4">
-                        <input type="email" id="login-email" class="form-control form-control-lg" required />
+                      <div class="m-3">
+                        <input type="email" 
+                               id="login-email"  
+                               class="form-control form-control-lg" 
+                               required />
                         <label class="form-label" for="login-email">Email address</label>
                       </div>
     
-                      <div class="form-outline mb-4">
-                        <input type="password" id="login-pwd" class="form-control form-control-lg" required />
+                      <div class="m-3">
+                        <input type="password" 
+                               id="login-pwd" 
+                               class="form-control form-control-lg" 
+                               required />
                         <label class="form-label" for="login-pwd">Password</label>
                       </div>
     
-                      <div class="pt-1 mb-4">
+                      <div class="pt-1 m-3">
                         <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
                       </div>
     
                       <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="../pages/registration.html"
                           style="color: #393f81;">Register here</a></p>
-
                     </form>
-    
+                    <!-- END OF FORM -->
                   </div>
                 </div>
               </div>
@@ -101,9 +107,7 @@
         </div>
       </div>
 
-
-    </section>
-  
+    <!-- Container for footer -->
     <div class="container-fluid-lg rounded">
       <!-- Footer -->
       <footer
