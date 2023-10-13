@@ -1,10 +1,22 @@
 # UPGarage Website
- UPGarage Parts Website
+A project website to target customers who are looking to purchase quality car parts. The store only consist of wheels but more to come! User-friendly interface experience with responsiveness depending on device being viewed on. 
 
+Created with HTML, CSS, Bootstrap.
 
+# Project Preview
 
-## Getting Started
+### Homepage
+![homepage](Assets/images/readme/homepage.png)
 
+### User Login
+![user login](Assets/images/readme/userlogin.png)
+
+### Sign Up
+![sign up](Assets/images/readme/register.png)
+### Products
+![products](Assets/images/readme/products.png)
+### Checkout
+![checkout](Assets/images/readme/checkout.png)
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
