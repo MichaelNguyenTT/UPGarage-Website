@@ -56,12 +56,55 @@
             <div class="container-lg w-75">
                 <!--ROW GRID-->
                 <div class="row g-5">
+                    <div class="col-md-5 col-lg-4 order-md-last pt-5 text-light">
+                        <h4 class="my-5 d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-primary fw-bold fs-3">Your Cart</span>
+                            <span class="badge bg-danger rounded-pill">3</span>
+                        </h4>
+        
+                        <!-- list group for cart-->
+                        <ul class="list-group my-3">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>Volk TE37 Ultra</h6>
+                                    <span>
+                                        <img class="img-fluid rounded-3" style="width: 65px;" 
+                                        src="../Assets/images/products/te37bluegray.png"></span>
+                                </div>
+                                <span>$1400</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>Kansei Astro K15H</h6>
+                                    <span>
+                                        <img class="img-fluid rounded-3" style="width: 65px;" 
+                                        src="../Assets/images/products/kansei-astro.png" />
+                                    </span>
+                                </div>
+                                <span>$300</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>BBS RGR</h6>
+                                    <span>
+                                        <img class="img-fluid rounded-3" style="width: 65px;"
+                                        src="../Assets/images/products/bbs-rgr.png" />
+                                    </span>
+                                </div>
+                                <span>$1000</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                               <span class="fw-bold fs-4">Total</span>
+                               <strong class="pt-1">$1700</strong>
+                            </li>
+                        </ul>
+                    </div>
                     <!--2 COLUMNS TO NEXT CONTENT INSIDE-->
-                    <div class="col-md-7 col-lg-8 py-5 text-light">
+                    <div class="col-md-7 col-lg-8 text-light pt-5">
                         <form class="was-validated">
                             <!--NEW ROW FOR FORM ITEMS-->
-                            <div class="row pt-5">
-                                <h4 class="pb-2">Billing Address</h4>
+                            <div class="row">
+                                <h4 class="pt-5">Billing Address</h4>
                                 <div class="col-md-6">
                                     <label for="firstName" class="form-label col-sm-12">First Name
                                     </label>
@@ -78,7 +121,7 @@
                                 <div class="col-md-12">
                                     <label for="emailAdress" class="form-label col-sm-12">Email Address
                                     </label>
-                                    <input type="email" class="form-control" id="emailAdress" placeholder="" value="" required />
+                                    <input type="email" class="form-control" id="emailAdress" placeholder="example@email.com" value="" required />
                                     <div class="invalid-feedback">Enter valid email address.</div>
                                 </div>
                                 <div class="col-md-12">
@@ -138,78 +181,35 @@
                             </div>
                             
                             <!--ANOTHER ROW FOR FORM PAYMENT-->
-                            <div class="row pt-3 gy-3">
-                                <div class="col-md-6">
+                            <div class="row pt-3">
+                                <div class="col-6">
                                     <label for="cc-name" class="form-label">Name on card</label>
                                     <input type="text" class="form-control" id="cc-name" required>
                                     <span class="text-white-50">Full name on card</span>
                                     <div class="invalid-feedback">Name on card is required.</div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-6">
                                     <label for="cc-number" class="form-label">Credit Card Number</label>
                                     <input type="text" class="form-control" id="cc-number" required>
                                     <div class="invalid-feedback">Credit card number is required.</div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-4 col-sm-4">
                                     <label for="cc-expiration" class="form-label">Expiration</label>
                                     <input type="text" class="form-control" id="cc-expiration">
                                     <div class="invalid-feedback">Expiration date required.</div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-4 col-sm-4 col-lg-3">
                                     <label for="cc-cvv" class="form-label">CVV</label>
                                     <input type="text" class="form-control" id="cc-cvv">
                                     <div class="invalid-feedback">Security code required.</div>
                                 </div>
                             </div>
                             <hr>
-                            <button class="w-50 btn btn-dark" type="submit">Continue to checkout</button>
+                            <button class="w-50 btn btn-dark mb-2" type="submit">Continue to checkout</button>
                         </div>
                     </form>
                         
                     <!--COLUMN GRID FOR SHOPPING CART-->
-                    <div class="col-md-5 col-lg-4 order-md-last py-5 text-light">
-                        <h4 class="my-5 d-flex justify-content-between align-items-center mb-3">
-                            <span class="text-primary fw-bold fs-3">Your Cart</span>
-                            <span class="badge bg-danger rounded-pill">3</span>
-                        </h4>
-
-                        <!-- list group for cart-->
-                        <ul class="list-group my-3">
-                            <li class="list-group-item d-flex justify-content-between">
-                                <div>
-                                    <h6>Volk TE37 Ultra</h6>
-                                    <span>
-                                        <img class="img-fluid rounded-3" style="width: 65px;" 
-                                        src="../Assets/images/products/te37bluegray.png"></span>
-                                </div>
-                                <span>$1400</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between">
-                                <div>
-                                    <h6>Kansei Astro K15H</h6>
-                                    <span>
-                                        <img class="img-fluid rounded-3" style="width: 65px;" 
-                                        src="../Assets/images/products/kansei-astro.png" />
-                                    </span>
-                                </div>
-                                <span>$300</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between">
-                                <div>
-                                    <h6>BBS RGR</h6>
-                                    <span>
-                                        <img class="img-fluid rounded-3" style="width: 65px;"
-                                        src="../Assets/images/products/bbs-rgr.png" />
-                                    </span>
-                                </div>
-                                <span>$1000</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between">
-                               <span class="fw-bold fs-4">Total</span>
-                               <strong class="pt-1">$1700</strong>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </section>
