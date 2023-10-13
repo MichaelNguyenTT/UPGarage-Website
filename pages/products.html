@@ -11,56 +11,43 @@
 </head>
 <body>
     <header>
-    <!-- **** NEED ADD RESPONSIVE TO NAV ****-->
-    <!-- Container for Navbar-->
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top rounded">
-      <div class="container-fluid">
-        <div class="container w-25">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../assets/images/upgaragelogo.png" alt="upgarage-logo" class="w-75">
+      <nav class="navbar navbar-expand-lg bg-dark fixed-top rounded opacity-75">
+        <div class="container-fluid">
+          <a class="navbar-brand px-5" href="index.html">
+            <img src="/Assets/images/upgaragelogo.png" width="200px">
           </a>
+          <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item pt-2">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="#aboutSection">About</a>
+              </li>
+              <li class="nav-item pt-2">
+                <a class="nav-link" href="/pages/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../pages/registration.html">
+                  <button class="btn btn-secondary" type="signup">Sign Up</button>
+                </a>
+              </li>
+            </ul>
+            <span>
+              <a href="./pages/userlogin.html">
+                <img src="/assets/images/account.svg" />
+              </a>
+              <a href="./pages/checkout.html">
+                <img src="/Assets/images/cart.png" height="24px" />
+              </a>
+            </span>
+          </div>
         </div>
-            <!--CONTAINER FOR LINKS-->
-            <div class="container d-flex justify-content-center">
-              <div class="navbar" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item pt-2">
-                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item pt-2">
-                    <a class="nav-link text-white" href="#aboutSection">About</a>
-                  </li>
-                  <li class="nav-item pt-2">
-                    <a class="nav-link text-white" href="../pages/products.html">Products</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <!--CONTAINER FOR ICON LINKS-->
-            <div class="container w-25 d-flex justify-content-end">
-              <div class="navbar" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item pt-2">
-                    <a class="nav-link active" aria-current="page" href="../pages/userlogin.html">
-                      <img src="../assets/images/account.svg">
-                    </a>
-                  </li>
-                  <li class="nav-item pt-2">
-                    <a class="nav-link" href="../pages/checkout.html">
-                      <img src="../assets/images/cart.png" height="24px" width="24px">
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="../pages/registration.html">
-                      <button class="btn btn-secondary shadow" type="signup">Sign Up</button>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-      </div>
-    </nav>
+      </nav>
+  
     </header>
     <!--Container w/ bootstrap card-->
     <!--2 rows of 3 columns GRID SYSTEM-->
@@ -68,9 +55,9 @@
       <h1 class="text-center text-white fs-3"><strong>Wheels</strong></h1>
       <hr class="hLine">  
 
-      <div class="container my-5">
+      <div class="container d-flex flex-wrap my-5">
             <div class="row mb-4">
-                <div class="col-md-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                     <div class="card shadow">
                         <img src="../Assets/images/products/te37bluegray.png" class="card-img-top shadow rounded" alt="...">
                         <div class="card-body">
@@ -81,7 +68,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                     <div class="card shadow">
                         <img src="../Assets/images/products/kansei-astro.png" class="card-img-top shadow rounded" alt="...">
                         <div class="card-body">
@@ -92,7 +79,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                     <div class="card shadow">
                         <img src="../Assets/images/products/bbs-rgr.png" class="card-img-top shadow rounded" alt="...">
                         <div class="card-body">
@@ -115,7 +102,7 @@
                     </div>
                 </div>
     
-                <div class="col-md-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                     <div class="card shadow">
                         <img src="../Assets/images/products/work-motion.png" class="card-img-top shadow rounded" alt="...">
                         <div class="card-body">
@@ -126,7 +113,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                     <div class="card shadow">
                         <img src="../Assets/images/products/konig-oversteer.png" class="card-img-top shadow rounded" alt="...">
                         <div class="card-body">

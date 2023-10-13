@@ -13,6 +13,18 @@ body {
 hr {
     color: white;
 }
+
+h4 {
+    font-weight: bold;
+}
+
+span a {
+    text-decoration-line: none;
+}
+
+.nav-link {
+    color: white;
+}
 #wheel-card-row1 {
     margin-top: 40px;
     font-family: monospace;
@@ -61,7 +73,6 @@ hr {
 }
 
 .banner a {
-    text-decoration: none;
     text-decoration: none;
     color: black;
     font-weight: bold;
