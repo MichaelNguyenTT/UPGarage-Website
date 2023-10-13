@@ -76,3 +76,7 @@ span a {
     color: black;
     font-weight: bold;
 }
+
+.form-label {
+    padding-top: 10px;
+}

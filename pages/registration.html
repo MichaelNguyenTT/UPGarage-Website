@@ -52,40 +52,36 @@
 
 <body>
   <main>
-    <div class="container-lg py-5">
+    <div class="container py-5">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-6 col-md-8 col-lg-7">
-          <div class="card" style="border-radius: 15px;">
+          <div class="card">
             <div class="card-body">
               <h2 class="text-uppercase text-center fs-4">Create an account</h2>
-              
+              <hr style="color: black">
                   <!--Validation to form attribute-->
                   <form name="myValidate" class="was-validated">
-                    <div class="form-outline">
+                    <div>
                         <label class="form-label" for="fName" name="name">First Name</label>
-                      <input type="text" id="fName" class="form-control form-control-lg" value="" required />
-                      <div class="valid-feedback">Valid.</div>
+                      <input type="text" id="fName" class="form-control" value="" required />
                       <div class="invalid-feedback">Enter Your First Name.</div> 
                     </div>
 
-                    <div class="form-outline">
+                    <div>
                         <label class="form-label" for="lName" name="name">Last Name</label>
-                        <input type="text" id="lName" class="form-control form-control-lg" value="" required>
-                        <div class="valid-feedback">Valid.</div>
+                        <input type="text" id="lName" class="form-control" value="" required>
                       <div class="invalid-feedback">Enter Your Last Name.</div> 
                     </div>
 
-                    <div class="form-outline">
+                    <div>
                         <label class="form-label" for="EmailAddress" name="email">Your Email</label>
-                      <input type="email" id="EmailAddress" class="form-control form-control-lg" required />
-                      <div class="valid-feedback">Valid.</div>
+                      <input type="email" id="EmailAddress" class="form-control" placeholder="example@email.com" required />
                       <div class="invalid-feedback">Enter Your Email Address.</div> 
                     </div>
 
-                    <div class="form-outline">
+                    <div>
                         <label class="form-label" for="password" name="password">Password</label>
-                      <input type="password" id="password" class="form-control form-control-lg" required />
-                      <div class="valid-feedback">Valid.</div>
+                      <input type="password" id="password" class="form-control" required />
                       <div class="invalid-feedback">Enter Your Password.</div>  
                     </div>
                     <hr style="color:black">
@@ -105,8 +101,8 @@
                         </div>
                         <hr style="color:black;">
                         <div class="form-check d-flex justify-content-center mb-3">
-                          <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
-                          <label class="form-check-label" for="form2Example3g">
+                          <input class="form-check-input me-2" type="checkbox" value="" id="terms-service" />
+                          <label class="form-check-label" for="terms-service">
                             I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
                           </label>
                         </div>
@@ -115,7 +111,7 @@
                           <input type="submit" value="Register" class="btn btn-success btn-block btn-lg bg-dark">
                         </div>
                         
-                        <p class="text-center text-muted mt-2 pb-2">Have already an account? 
+                        <p class="text-center text-muted mt-2">Have already an account? 
                           <a href="../pages/userlogin.html"
                           class="fw-bold text-body"><u>Login here</u></a></p>
                   </form>
