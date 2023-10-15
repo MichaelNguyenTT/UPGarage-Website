@@ -73,7 +73,7 @@
                 <div class="col-md-6 col-lg-7 d-flex justify-content-center">
                   <div class="card-body p-4 p-lg-5 text-black">
                     <!-- FORM VALIDATION ADDED -->
-                    <form class="was-validated">
+                    <form class="needs-validation" novalidate>
                       <div class="d-flex align-items-center mb-3 pb-1">
                         <span>
                           <img src="../assets/images/upgaragelogo.png" alt="logo">
@@ -82,7 +82,7 @@
     
                       <h5 class="fw-normal mb-3 pb-3">Sign into your account</h5>
     
-                      <div class="m-3">
+                      <div>
                         <input type="email" 
                                id="login-email"  
                                class="form-control form-control-lg" 
@@ -90,7 +90,7 @@
                         <label class="form-label" for="login-email">Email address</label>
                       </div>
     
-                      <div class="m-3">
+                      <div>
                         <input type="password" 
                                id="login-pwd" 
                                class="form-control form-control-lg" 
@@ -99,7 +99,7 @@
                       </div>
     
                       <div class="pt-1 m-3">
-                        <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                        <button class="btn btn-dark btn-lg btn-block" type="submit">Login</button>
                       </div>
     
                       <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="../pages/registration.html"
@@ -184,6 +184,7 @@
         </div>
       </footer>
     </div>
+    <script src="../Scripts/validation.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
