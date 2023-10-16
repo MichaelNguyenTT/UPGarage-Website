@@ -200,12 +200,12 @@
                                 </div>
                                 <div class="col-md-4 col-sm-4">
                                     <label for="cc-expiration" class="form-label">Expiration</label>
-                                    <input type="text" class="form-control" id="cc-expiration">
+                                    <input type="text" class="form-control" id="cc-expiration" required>
                                     <div class="invalid-feedback">Expiration date required.</div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-lg-3">
                                     <label for="cc-cvv" class="form-label">CVV</label>
-                                    <input type="text" class="form-control" id="cc-cvv">
+                                    <input type="text" class="form-control" id="cc-cvv" minlength="3" maxlength="3" required>
                                     <div class="invalid-feedback">Security code required.</div>
                                 </div>
                             </div>
