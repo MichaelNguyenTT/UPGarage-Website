@@ -29,7 +29,6 @@ Created with HTML, CSS, Bootstrap.
 
 Michael Nguyen
 
-- [Link to Portfolio Site](#)
 - [Link to Github](https://github.com/MichaelNguyenTT)
 
 
